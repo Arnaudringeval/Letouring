@@ -1,5 +1,6 @@
 h1.gras
     {
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     font-weight: bolder;
@@ -10,9 +11,11 @@ h1.gras
     }
 body
     {
-        background-image: url(images/IMG_20200720_194315.jpg);
-        background-size: cover;
+        background-image: url(images/logo_track.png);
         background-repeat: no-repeat;
+        background-color: rgb(255, 255, 255);
+        background-size: 80%;
+        background-position: right 50% top 0;
     }
 #menus li
     {
@@ -26,8 +29,15 @@ body
     }
 #menus
     {
+        display: flex;
+        justify-content: space-evenly;
         text-align: center;
         color: black;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        padding-left: 30%;
+        padding-right: 30%;
     }
 #menus ul li
     {
