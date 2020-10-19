@@ -74,4 +74,6 @@ body
     header
     {
         position: fixed;
+        padding-left: 50%;
+        padding-right: 50%; 
     }
