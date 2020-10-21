@@ -1,28 +1,30 @@
-*
-{
-    margin: 0;
-    padding: 0;
-}
-h1.gras
-    {
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    font-weight: bolder;
-    color: rgb(41, 123, 179);
-    text-align: center;
-    margin: 0px;
-    font-style: italic;
-    }
 body
     {
         background-image: url(images/logo_track.png);
         background-repeat: no-repeat;
         background-color: rgb(189, 189, 189);
         background-size: 80%;
-        background-position: right 50% top 10px;
+        background-position: right 50% top 150px;
         background-attachment: fixed;
     }
+h1
+    {
+
+        font-family: 'Arial Black', Helvetica, sans-serif;
+        font-size: 100px;
+        font-weight: bold;
+        color: rgb(41, 123, 179);
+        text-align: center;
+        margin: 0px;
+        font-style: italic;
+    }
+header
+    {
+        display: block;
+        position: fixed;
+        padding-left: 35%;
+        margin-top: 0;    
+    }    
 #menus li
     {
         display: inline-block;
@@ -47,6 +49,11 @@ body
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 20px;
     }
+#menus li
+    {
+        display:inline-block;
+        position:relative;
+    }       
 #menus ul li
     {
         display: inherit;
@@ -66,52 +73,52 @@ body
 #menus a
     {
         text-decoration: none;
+        display: block;
         color: rgb(250, 250, 250);
     }
 #menus li ul
     {
-        text-align: left;
+        text-align: right;
     }
 #menus, #menus ul
     {
         padding: 0;
         margin: 0;
         list-style: none;
+        text-align: center;
     }
-header
-    {
-        position: fixed;
-        padding-left: 35%;
-        margin-top: 0;
-    
-    }
+#menus li li:hover a
+{
+        font-style: italic;
+        text-transform:inherit;
+}
 .name
-{
-    color: rgb(41, 123, 179);
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    font-size: 35px;
-    padding-bottom: 10px;
-}
-aside
-{
-    position: absolute;
-    top: 250px;
-    left: 50px;
-    width: 200px;
-    background-color: rgb(41, 123, 179, 0.75);
-    padding: 15px;
-    border-radius: 10px;
-}
+    {
+        color: rgb(41, 123, 179);
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+#intro
+    {
+        position: absolute;
+        top: 35%;
+        left: 50px;
+        width: 200px;
+        background-color: rgb(41, 123, 179, 0.75);
+        padding: 15px;
+        border-radius: 10px;
+    }
 p
-{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
 iframe
-{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 0px;
-}   
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20%;
+    }
