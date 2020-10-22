@@ -40,10 +40,18 @@ header
         background-color: #318ce7bf;
         padding-top: 5px;
         padding-bottom: 5px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
         color: rgb(255, 255, 255);
     }
+#menus ul li:first-child
+{
+    margin-top: 5px;
+}
+#menus ul li:last-child
+{
+    border-radius: 0 0 8px 8px;
+}
 #menus
     {
         display: flex;
@@ -61,17 +69,21 @@ header
     {
         display:inline-block;
         position:relative;
+        border-radius: 8px 8px 0 0;
+        padding-right: 25px;
     }       
 #menus ul li
     {
         display: inherit;
-        text-align: left;
+        text-align: center;
+        border-radius: 0;
     }
 #menus ul
     {
         position: absolute;
         display: none;
-        text-align: left;
+        left: 0;
+        right: 0;
         z-index: 1000;
     }
 #menus li:hover ul
@@ -96,10 +108,10 @@ header
         text-align: center;
     }
 #menus li li:hover a
-{
+    {
         font-style: italic;
         text-transform:inherit;
-}
+    }
 .name
     {
         color: #318ce7;
