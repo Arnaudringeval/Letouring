@@ -14,7 +14,6 @@ body
     }
 h1
     {
-
         font-family: 'Arial Black', Helvetica, sans-serif;
         font-size: 100px;
         font-weight: bold;
@@ -50,7 +49,6 @@ header
         display: flex;
         justify-content: space-evenly;
         text-align: center;
-        color: black;
         margin: 0 auto;
         left: 0;
         right: 0;
